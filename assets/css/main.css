@@ -39,6 +39,10 @@ body {
   text-align: center;
 }
 
+section {
+  overflow: hidden;
+}
+
 .header {
   padding: 80px 0;
   background: var(--dark-color);
@@ -515,6 +519,9 @@ body {
 @media (max-width: 992px) {
   .container {
     max-width: 828px;
+  }
+  .hero__info {
+    overflow: hidden;
   }
   .hero__title {
     font-size: 75px;
