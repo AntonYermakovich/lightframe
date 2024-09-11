@@ -1,0 +1,48 @@
+.footer {
+  width: 100%;
+  background: var(--red-color);
+  margin-top: 150px;
+  padding: 100px 0;
+  border-radius: 30px 30px 0 0;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: space-evenly;
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 36.07px;
+        font-weight: 700;
+        line-height: 43.29px;
+        color: var(--light-color);
+        transition: .15s;
+
+        &:hover {
+            color: var(--dark-color);
+        }
+      }
+    }
+  }
+
+  &__text {
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 54px;
+    text-align: center;
+    color: var(--light-color);
+
+    span {
+        font-weight: 700;
+    }
+  }
+}

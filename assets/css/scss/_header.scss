@@ -1,0 +1,31 @@
+.header {
+  padding: 80px 0;
+  background: var(--dark-color);
+
+  &__container {
+    width: 100%;
+
+    .menu {
+      display: flex;
+      justify-content: space-between;
+
+      &__item {
+        list-style: none;
+      }
+
+      &__link {
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 36px;
+        color: var(--light-color);
+        text-transform: uppercase;
+        transition: .15s;
+
+        &:hover {
+            color: var(--red-color)
+        }
+      }
+    }
+  }
+}
