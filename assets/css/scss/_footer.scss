@@ -47,6 +47,11 @@
     line-height: 30px;
     display: flex;
     flex-direction: column;
+
+    span {
+      color: var(--light-color);
+      text-decoration: none;
+    }
   }
 
   &__text {

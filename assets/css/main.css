@@ -445,6 +445,10 @@ section {
   display: flex;
   flex-direction: column;
 }
+.footer__inn span {
+  color: var(--light-color);
+  text-decoration: none;
+}
 .footer__text {
   font-size: 45px;
   font-weight: 300;
