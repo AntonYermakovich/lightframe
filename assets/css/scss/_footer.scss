@@ -50,7 +50,12 @@
 
     span {
       color: var(--light-color);
-      text-decoration: none;
+      
+      a {
+        text-decoration: none;
+        color: var(--light-color);
+        pointer-events: none;
+      }
     }
   }
 

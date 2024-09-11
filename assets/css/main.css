@@ -447,7 +447,11 @@ section {
 }
 .footer__inn span {
   color: var(--light-color);
+}
+.footer__inn span a {
   text-decoration: none;
+  color: var(--light-color);
+  pointer-events: none;
 }
 .footer__text {
   font-size: 45px;
