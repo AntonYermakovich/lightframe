@@ -25,24 +25,37 @@
         font-weight: 700;
         line-height: 43.29px;
         color: var(--light-color);
-        transition: .15s;
+        transition: 0.15s;
 
         &:hover {
-            color: var(--dark-color);
+          color: var(--dark-color);
         }
       }
     }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+  }
+
+  &__inn {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
   }
 
   &__text {
     font-size: 45px;
     font-weight: 300;
     line-height: 54px;
-    text-align: center;
-    color: var(--light-color);
 
     span {
-        font-weight: 700;
+      font-weight: 700;
     }
   }
 }

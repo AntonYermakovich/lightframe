@@ -1,10 +1,11 @@
 .hero {
-  padding: 80px 0 400px;
+  padding: 220px 0 400px;
   color: var(--light-color);
   display: flex;
   justify-content: center;
   background: linear-gradient(180deg, rgba(0,0,0,1) 66%, rgba(251,80,65,1) 85%, rgba(255,255,255,0.8547794117647058) 100%);
   text-align: center;
+  overflow: hidden;
 
   &__info {
     max-width: 905px;

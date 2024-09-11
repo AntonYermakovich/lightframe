@@ -90,3 +90,16 @@ document.querySelector("#form").addEventListener("submit", async (e) => {
     e.target.reset();
   }
 });
+
+const header = document.querySelector(".header");
+
+window.addEventListener("scroll", (e) => {
+  window.scrollY > 1
+    ? header.classList.add("header__sticky")
+    : header.classList.remove("header__sticky");
+});
+
+AOS.init({
+  offset: 120, 
+  once: true
+});

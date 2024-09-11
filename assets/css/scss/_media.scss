@@ -109,6 +109,7 @@
   .container {
     max-width: 828px;
   }
+
   .hero__info {
     overflow: hidden;
   }
@@ -208,6 +209,10 @@
     line-height: 30px;
   }
 
+  .hero {
+    padding: 140px 0 400px;
+  }
+
   .hero__title {
     font-size: 40.75px;
     line-height: 55.7px;
@@ -243,6 +248,7 @@
   }
 
   .services__item {
+    padding: 20px;
     h3 {
       font-size: 26px;
       line-height: 30px;
@@ -272,7 +278,8 @@
     .tab {
       font-size: 16px;
       line-height: 19px;
-      flex: 0 0 60%;
+      flex: 0 0 62%;
+      padding: 10px;
     }
   }
 
@@ -317,5 +324,14 @@
     flex-direction: column;
     text-align: center;
     gap: 20px;
+  }
+
+  .footer__info {
+    flex-direction: column;
+  }
+
+  .footer__inn {
+    margin-top: 30px;
+    text-align: center;
   }
 }

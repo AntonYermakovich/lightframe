@@ -1,6 +1,14 @@
 .header {
-  padding: 80px 0;
+  padding: 50px 0 20px;
   background: var(--dark-color);
+  transition: 0.15s;
+  z-index: 5;
+  position: sticky;
+  top: 0;
+
+  &__sticky {
+    padding: 20px 0;
+  }
 
   &__container {
     width: 100%;
@@ -20,10 +28,10 @@
         line-height: 36px;
         color: var(--light-color);
         text-transform: uppercase;
-        transition: .15s;
+        transition: 0.15s;
 
         &:hover {
-            color: var(--red-color)
+          color: var(--red-color);
         }
       }
     }

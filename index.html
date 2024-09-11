@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LightFrame Media</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
@@ -26,8 +27,10 @@
 
     <section class="hero">
       <div class="hero__info">
-        <h1 class="hero__title">LightFrame <span>Media</span></h1>
-        <p class="hero__desc">
+        <h1 class="hero__title" data-aos="fade-left">
+          LightFrame <span>Media</span>
+        </h1>
+        <p class="hero__desc" data-aos="fade-right" data-aos-delay="300">
           это креативная студия, специализирующаяся на разработке визуального
           контента в области кино, видео и фотографии. Мы объединяем современные
           технологии и художественное видение, чтобы создавать уникальные
@@ -41,10 +44,10 @@
 
     <section class="about" id="about">
       <div class="about__container container">
-        <h2 class="title">Наши ценности</h2>
+        <h2 class="title" data-aos="fade-up">Наши ценности</h2>
 
         <div class="about__list">
-          <div class="about__item">
+          <div class="about__item" data-aos="fade-right">
             <h3>Креативность и инновации</h3>
             <p>
               Мы стремимся к поиску нестандартных решений и новых подходов в
@@ -52,7 +55,7 @@
               создать что-то уникальное, вдохновляющее и запоминающееся.
             </p>
           </div>
-          <div class="about__item">
+          <div class="about__item" data-aos="fade-left">
             <h3>Качество и внимание к деталям</h3>
             <p>
               Мы верим, что именно детали создают идеальный результат.
@@ -60,7 +63,7 @@
               качеству являются основой нашей работы.
             </p>
           </div>
-          <div class="about__item">
+          <div class="about__item" data-aos="fade-right">
             <h3>Партнерство и открытость</h3>
             <p>
               Для нас важно выстраивать доверительные и открытые отношения с
@@ -69,7 +72,7 @@
               наилучшего результата.
             </p>
           </div>
-          <div class="about__item">
+          <div class="about__item" data-aos="fade-left">
             <h3>Эмоциональное воздействие</h3>
             <p>
               Наши работы не просто рассказывают истории — они вызывают эмоции.
@@ -78,18 +81,18 @@
             </p>
           </div>
 
-          <div class="about__img"></div>
+          <div class="about__img" data-aos="fade-left"></div>
         </div>
       </div>
     </section>
 
     <section class="services" id="services">
       <div class="services__container container">
-        <h2 class="title">Наши услуги</h2>
+        <h2 class="title" data-aos="fade-up">Наши услуги</h2>
 
         <div class="services__list">
           <div class="services__row">
-            <div class="services__item">
+            <div class="services__item" data-aos="fade-right">
               <h3>Видеопроизводство</h3>
 
               <ul>
@@ -102,7 +105,7 @@
               </ul>
             </div>
 
-            <div class="services__item">
+            <div class="services__item" data-aos="fade-left">
               <h3>Фотосъемка</h3>
 
               <ul>
@@ -116,7 +119,7 @@
           </div>
 
           <div class="services__row">
-            <div class="services__item">
+            <div class="services__item" data-aos="fade-right">
               <h3>Графический дизайн и анимация</h3>
 
               <ul>
@@ -128,7 +131,7 @@
               </ul>
             </div>
 
-            <div class="services__item">
+            <div class="services__item" data-aos="fade-left">
               <h3>Пост-продакшн и монтаж</h3>
 
               <ul>
@@ -140,7 +143,7 @@
             </div>
           </div>
 
-          <div class="services__row">
+          <div class="services__row" data-aos="fade-up">
             <div class="services__item">
               <h3>Мультимедийные проекты и контент для социальных сетей</h3>
             </div>
@@ -166,25 +169,25 @@
 
     <section class="cases" id="cases">
       <div class="cases__container container">
-        <h2 class="title">Кейсы</h2>
+        <h2 class="title" data-aos="fade-up">Кейсы</h2>
 
         <div class="cases__info">
           <div class="cases__block">
             <div class="cases__tabs">
-              <p class="tab tab_active" data-tab="0">
+              <p class="tab tab_active" data-tab="0" data-aos="fade-left">
                 Рекламный ролик для модного бренда
               </p>
-              <p class="tab" data-tab="1">
+              <p class="tab" data-tab="1" data-aos="fade-left" data-aos-delay="300">
                 Промо-фотосессия для ресторанной сети
               </p>
-              <p class="tab" data-tab="2">
+              <p class="tab" data-tab="2" data-aos="fade-left" data-aos-delay="600">
                 Промо-ролик для стартапа "GreenEnergy"
               </p>
-              <p class="tab" data-tab="3">Рекламная кампания для курорта</p>
+              <p class="tab" data-tab="3" data-aos="fade-left" data-aos-delay="900">Рекламная кампания для курорта</p>
             </div>
           </div>
 
-          <div class="cases__contents">
+          <div class="cases__contents" data-aos="fade-up">
             <div class="img"></div>
 
             <div class="content content_active">
@@ -370,10 +373,18 @@
             <a href="#cases">Кейсы</a>
           </li>
         </ul>
-        <p class="footer__text">LightFrame <span>Media</span></p>
+
+        <div class="footer__info">
+          <p class="footer__text">LightFrame <span>Media</span></p>
+          <p class="footer__inn">
+            <span>ИНН: 772871849189</span>
+            <span>ОГРНИП: 317774600205488</span>
+          </p>
+        </div>
       </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://unpkg.com/imask"></script>
