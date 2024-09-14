@@ -13,7 +13,7 @@ $email = $data['email'];
 $phone = $data['phone'];
 $message = $data['message'];
 
-$title = 'Заявка с сайта TechVortex'; // Название письма
+$title = 'Заявка с сайта LightFrame'; // Название письма
 $body = '<p>Имя: <strong>'.$name.'</strong></p>';
 $body .= '<p>E-mail: <strong>'.$email.'</strong></p>';
 $body .= '<p>Телефон: <strong>'.$phone.'</strong></p>';
