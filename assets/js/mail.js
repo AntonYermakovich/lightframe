@@ -75,12 +75,10 @@ document.querySelector("#form").addEventListener("submit", async (e) => {
       message: e.target.message.value,
     };
 
-    // await fetch("mail.php", {
-    //   method: "POST",
-    //   body: JSON.stringify(formData),
-    // });
-
-    console.log(formData);
+    await fetch("mail.php", {
+      method: "POST",
+      body: JSON.stringify(formData),
+    });
 
     Swal.fire({
       title: "Ваше сообщение отправлено!",
